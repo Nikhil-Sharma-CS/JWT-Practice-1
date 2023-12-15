@@ -14,9 +14,9 @@ import java.util.function.Function;
 @Component
 public class JwtHelper {
 
-    public static final long JWT_TOKEN_VALIDITY = 2 * 60 * 60;
+    public static final long JWT_TOKEN_VALIDITY =  30 *60;
 
-    private final String secret = "afafasfafafasfasfasfafacasdasfasxASFACASDFACASDFASFASFDAFASFASDAADSCSDFADCVSGCFVADXCcadwavfsfarvf";
+    private final String secret = "698fe585c142b6004aed18a0154ce592233ef525ef52e8895a3d02773c49b78b";
 
     public String getUsernameFromToken(String token)
     {

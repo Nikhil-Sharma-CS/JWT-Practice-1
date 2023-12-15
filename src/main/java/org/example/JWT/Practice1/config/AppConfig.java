@@ -15,15 +15,6 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 public class AppConfig {
 
     @Bean
-    public UserDetailsService userDetailsService()
-    {
-        UserDetails user1 = User.builder().username("Nikhil").password(passwordEncoder().encode("abc")).roles("ADMIN").build();
-        UserDetails user2 = User.builder().username("Priyanshu").password(passwordEncoder().encode("abcd")).roles("ADMIN").build();
-
-        return new InMemoryUserDetailsManager(user1, user2);
-    }
-
-    @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
