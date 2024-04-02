@@ -16,7 +16,7 @@ public class JwtHelper {
 
     public static final long JWT_TOKEN_VALIDITY =  30 *60;
 
-    private final String secret = "698fe585c142b6004aed18a0154ce592233ef525ef52e8895a3d02773c49b78b";
+    private final String secret = "afafasfafafasfasfasfafacasdasfasxASFACASDFACASDFASFASFDAFASFASDAADSCSDFADCVSGCFVADXCcadwavfsfarvf";
 
     public String getUsernameFromToken(String token)
     {
